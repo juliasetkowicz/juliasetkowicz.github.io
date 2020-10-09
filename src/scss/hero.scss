@@ -1,5 +1,7 @@
 .hero {
   padding: 74px 16px 0;
+  margin-bottom: 92px ;
+
   &__contact {
     background: $link;
     border-radius: 64px;
@@ -9,7 +11,10 @@
     color: #ffffff;
     padding: 4px 24px;
     text-decoration: none;
-  }
+    }
+    &__description{
+      text-align: center;
+    }
   &__header {
     font-size: 26px;
     line-height: 32px;
@@ -41,9 +46,9 @@
     font-size: 16px;
     line-height: 32px;
     text-align: center;
+    margin-bottom: 48px;
   }
   &__special {
     color: $blue;
   }
-
 }

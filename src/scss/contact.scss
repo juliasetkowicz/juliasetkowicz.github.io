@@ -1,0 +1,37 @@
+.contact {
+  background: $lightBlue;
+  padding: 64px 16px 88px;
+  &__header {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+  }
+  &__description{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 32px;
+    color: $text;
+    text-align: center;
+    margin: 0px 56px;
+  }
+  &__links{
+      text-align: center;
+  }
+  
+  &__mail{
+    background: $link;
+    border-radius: 64px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    color: #ffffff;
+    padding: 4px 24px;
+    text-decoration: none;
+  }
+  }
+
