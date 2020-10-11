@@ -1,6 +1,5 @@
 .hero {
   padding: 64px 16px 88px;
-  margin-bottom: 92px;
   @media (min-width: $tablet) {
     max-width: 768px;
     margin: 0 auto;
@@ -9,7 +8,7 @@
   &__contact {
     background: $link;
     border-radius: 64px;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 20px;
     line-height: 40px;
     color: #ffffff;
@@ -64,3 +63,4 @@
     color: $blue;
   }
 }
+
