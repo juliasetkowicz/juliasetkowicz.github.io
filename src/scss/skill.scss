@@ -1,36 +1,50 @@
 .skills {
-  background-color: $skills;
+  background: #00c6ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #0072ff,
+    #00c6ff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #0072ff,
+    #00c6ff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: $lightBlue;
-  padding: 64px 16px 8px;
+  padding: 64px 16px 88px;
   &__header {
     font-size: 36px;
     line-height: 48px;
     text-align: center;
-    margin: 0 0 16px;
+  }
+  &__section-header {
+    text-align: center;
   }
 }
-  .skills{
-  &__list {
+.skills__list {
     font-style: normal;
-    font-size: 16px;
-    line-height: 24px;
-    width: 264px;
-    height: 200px;
-    list-style: none;
+    color: $lightBlue;
+    width: 288px;
+    margin: 0 auto;
+    list-style-type: none;
     padding: 0;
-    margin: 0 0 16px;
-    &-item{
-        padding: 0 0 0 24px;
-        margin: 12px 0px;        
-        &:before{
-            position: absolute;
-            left: 0;
-            content: '';
-            width: 12px;
-            height: 9px;
-            background: url('../assets/icons/small-tick.svg');
-            display: block;
-        }
+    position: relative;
+    &-item {
+      padding: 0 0 0 24px;
+      margin: 0 0 16px;
+      position: relative;
+      font-size: 16px;
+      line-height: 24px;
+      &:before {
+        position: absolute;
+        left: 0;
+        top: 7px;
+        display: block;
+        content: "";
+        width: 12px;
+        height: 9px;
+        background: url("../assets/icons/small-tick.svg");
+      }
     }
   }
-}
+
